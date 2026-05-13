@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Agora MND - Registre des accords numériques</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- BOUTON MOBILE -->
+  <button class="mobile-toggle" id="mobileToggle">
+    ☰
+  </button>
+
+  <div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+      <div class="logo-box">
+        <img src="./Assets/img/mnd_logo_black-D-LVTamj.png" alt="Logo">
+        <h2>Agora MND</h2>
+        <p>
+          Registre interactif des accords, MoU et partenariats du numérique et des médias.
+        </p>
+      </div>
+
+      <nav class="menu">
+        <a href="#dashboard" class="active">Tableau de bord</a>
+        <a href="#table-ronde">Table ronde</a>
+        <a href="#points-focaux">Points focaux</a>
+        <a href="#acteurs">Acteurs</a>
+        <a href="#accords">Accords mis en avant</a>
+        <a href="#registre">Registre central</a>
+        <a href="#circuit">Circuit d’activation</a>
+        <a href="#documentation">Documentation</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p>Mission d’évaluation indépendante</p>
+        <strong>MoU • Accords • Partenariats</strong>
+      </div>
+
+    </aside>
+
+
+    <!-- CONTENU PRINCIPAL -->
+    <main class="main-content">
+
+      <!-- HERO / TOPBAR -->
+      <section class="hero" id="dashboard">
+
+        <div class="hero-content">
+          <span class="hero-badge">Plateforme de pilotage des accords numériques</span>
+
+          <h1>Registre des accords et partenariats du MND</h1>
+
+          <p>
+            Une plateforme interactive pour visualiser, filtrer, suivre et activer les accords,
+            MoU et partenariats du secteur du numérique et des médias au Bénin.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#registre" class="btn btn-primary">Explorer le registre</a>
+            <a href="#table-ronde" class="btn btn-outline">Voir la table ronde</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <h3>Objectif stratégique</h3>
+          <p>
+            Passer d’une logique de signature à une logique de portefeuille actif :
+            accords documentés, acteurs responsabilisés, financement clarifié,
+            feuilles de route suivies et résultats mesurés.
+          </p>
+        </div>
+
+      </section>
+
+
+      <!-- STATISTIQUES -->
+      <section class="stats-grid">
+
+        <article class="stat-card">
+          <span class="stat-label">Portefeuille</span>
+          <h3 id="totalAccords">19</h3>
+          <p>Accords et cadres recensés</p>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-label">Actifs</span>
+          <h3 id="totalActifs">0</h3>
+          <p>Cadres en cours ou confirmés</p>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-label">Négociation</span>
+          <h3 id="totalNegociation">0</h3>
+          <p>Projets en négociation</p>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-label">À surveiller</span>
+          <h3 id="totalVerifier">0</h3>
+          <p>Accords à préciser ou à vérifier</p>
+        </article>
+
+      </section>
+
+
+      <!-- TABLE RONDE -->
+      <section class="panel-section roundtable-section" id="table-ronde">
+
+        <div class="section-title">
+          <div>
+            <span>Cartographie institutionnelle</span>
+            <h2>La table ronde des acteurs</h2>
+          </div>
+          <p>
+            Le MND est au centre. Autour de lui, les acteurs nationaux, services transversaux,
+            partenaires techniques, financiers, régionaux et multilatéraux.
+          </p>
+        </div>
+
+        <div class="roundtable">
+
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+          <div class="circle circle-3"></div>
+
+          <div class="actor center">
+            <strong>MND</strong>
+            <small>Pilotage stratégique</small>
+          </div>
+
+          <!-- Acteurs nationaux -->
+          <div class="actor asin">ASIN</div>
+          <div class="actor mae">MAE</div>
+          <div class="actor mef">MEF</div>
+          <div class="actor juridique">Service juridique MND</div>
+          <div class="actor srtb">SRTB</div>
+          <div class="actor mesrs">MESRS</div>
+          <div class="actor cabinet">Cabinet</div>
+          <div class="actor sgm">SGM</div>
+
+          <!-- Partenaires -->
+          <div class="actor smart">Smart Africa</div>
+          <div class="actor uit">UIT</div>
+          <div class="actor wardip">WARDIP</div>
+          <div class="actor chine">Chine</div>
+          <div class="actor rwanda">Rwanda</div>
+          <div class="actor lux">Luxembourg</div>
+          <div class="actor inde">Inde</div>
+          <div class="actor estonie">Estonie</div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ACTEURS -->
+      <section class="panel-section" id="acteurs">
+
+        <div class="section-title">
+          <div>
+            <span>Rôles et responsabilités</span>
+            <h2>Acteurs clés du dispositif</h2>
+          </div>
+          <p>
+            Chaque acteur intervient à une étape précise : préparation, validation,
+            financement, sécurisation juridique, mise en œuvre, relance et suivi.
+          </p>
+        </div>
+
+        <div class="actors-grid">
+
+          <article class="role-card">
+            <div class="role-icon blue">01</div>
+            <h3>MND</h3>
+            <p>Pilotage stratégique, priorisation du portefeuille et coordination globale.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon dark">02</div>
+            <h3>Cabinet</h3>
+            <p>Impulsion politique, arbitrage, validation des priorités et appui aux relances.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon cyan">03</div>
+            <h3>ASIN</h3>
+            <p>Mise en œuvre technique : infrastructures, cybersécurité, systèmes numériques.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon gold">04</div>
+            <h3>MAE</h3>
+            <p>Formalisation diplomatique, validation institutionnelle et traçabilité juridique.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon green">05</div>
+            <h3>MEF</h3>
+            <p>Adossement financier, budgétisation et transformation des accords en projets.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon navy">06</div>
+            <h3>Service juridique MND</h3>
+            <p>Sécurisation des clauses, conformité documentaire et appui juridique interne.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon purple">07</div>
+            <h3>Smart Africa</h3>
+            <p>Plateforme panafricaine d’activation des initiatives numériques.</p>
+          </article>
+
+          <article class="role-card">
+            <div class="role-icon red">08</div>
+            <h3>UIT</h3>
+            <p>Expertise multilatérale, normalisation, connectivité et renforcement des capacités.</p>
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- FILTRES -->
+      <section class="filters-section" id="registre">
+
+        <div class="filter-box">
+          <label for="filterType">Type d’accord</label>
+          <select id="filterType">
+            <option value="Tous">Tous</option>
+          </select>
+        </div>
+
+        <div class="filter-box">
+          <label for="filterPartenaire">Partenaire</label>
+          <select id="filterPartenaire">
+            <option value="Tous">Tous</option>
+          </select>
+        </div>
+
+        <div class="filter-box">
+          <label for="filterStatut">Statut</label>
+          <select id="filterStatut">
+            <option value="Tous">Tous</option>
+          </select>
+        </div>
+
+        <div class="filter-box">
+          <label for="filterMaturite">Maturité</label>
+          <select id="filterMaturite">
+            <option value="Tous">Tous</option>
+          </select>
+        </div>
+
+        <div class="filter-box search-box">
+          <label for="searchInput">Recherche</label>
+          <input type="text" id="searchInput" placeholder="Rechercher un accord, un partenaire, un domaine..." />
+        </div>
+
+        <div class="filter-actions">
+          <button id="resetFilters" class="btn-reset">Réinitialiser</button>
+        </div>
+
+      </section>
+
+
+      <!-- ACCORDS MIS EN AVANT -->
+      <section class="panel-section" id="accords">
+
+        <div class="section-title">
+          <div>
+            <span>Portefeuille d’accords</span>
+            <h2>Accords mis en avant</h2>
+          </div>
+          <p>
+            Les cartes ci-dessous se mettent à jour selon les filtres appliqués au registre.
+          </p>
+        </div>
+
+        <div class="agreements-grid" id="cardsContainer"></div>
+
+      </section>
+
+
+      <!-- TABLEAU CENTRAL -->
+      <section class="panel-section table-section">
+
+        <div class="section-title">
+          <div>
+            <span>Registre consolidé</span>
+            <h2>Registre central des accords</h2>
+          </div>
+
+          <p>
+            <strong id="resultCount">19</strong> résultat(s) affiché(s)
+          </p>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="agreements-table">
+            <thead>
+              <tr>
+                <th>gj</th>
+                <th>ID Accord</th>
+                <th>Intitulé de l’accord</th>
+                <th>Type</th>
+                <th>Partenaires</th>
+                <th>Domaine principal</th>
+                <th>État</th>
+                <th>Maturité</th>
+                <th>Documentation</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+
+      </section>
+
+
+      <!-- CIRCUIT D’ACTIVATION -->
+      <section class="panel-section process-section" id="circuit">
+
+        <div class="section-title light">
+          <div>
+            <span>Circuit d’activation</span>
+            <h2>De la signature à l’exécution</h2>
+          </div>
+          <p>
+            Une chaîne claire permet de transformer l’accord en actions concrètes.
+          </p>
+        </div>
+
+        <div class="process-grid">
+
+          <article class="process-step">
+            <span>01</span>
+            <h3>Besoin identifié</h3>
+            <p>Clarification du besoin sectoriel et de la priorité stratégique.</p>
+          </article>
+
+          <article class="process-step">
+            <span>02</span>
+            <h3>Analyse technique</h3>
+            <p>Examen par les directions, l’ASIN ou les structures concernées.</p>
+          </article>
+
+          <article class="process-step">
+            <span>03</span>
+            <h3>Sécurisation juridique</h3>
+            <p>Vérification des clauses, du statut documentaire et des obligations.</p>
+          </article>
+
+          <article class="process-step">
+            <span>04</span>
+            <h3>Validation institutionnelle</h3>
+            <p>Coordination avec le Cabinet, le SGM, le MAE et les parties concernées.</p>
+          </article>
+
+          <article class="process-step">
+            <span>05</span>
+            <h3>Financement</h3>
+            <p>Identification d’un projet, d’un budget ou d’un mécanisme d’appui.</p>
+          </article>
+
+          <article class="process-step">
+            <span>06</span>
+            <h3>Feuille de route</h3>
+            <p>Définition des actions, livrables, responsabilités et échéances.</p>
+          </article>
+
+          <article class="process-step">
+            <span>07</span>
+            <h3>Mise en œuvre</h3>
+            <p>Exécution des activités, mobilisation des partenaires et suivi technique.</p>
+          </article>
+
+          <article class="process-step">
+            <span>08</span>
+            <h3>Suivi & résultats</h3>
+            <p>Tableau de bord, preuves de réalisation et revue périodique.</p>
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- DOCUMENTATION -->
+      <section class="panel-section documentation-section" id="documentation">
+
+        <div class="section-title">
+          <div>
+            <span>Documentation</span>
+            <h2>Espace documentaire</h2>
+          </div>
+          <p>
+            Zone prévue pour centraliser les accords signés, MoU, notes conceptuelles,
+            comptes rendus, fiches de suivi et preuves d’exécution.
+          </p>
+        </div>
+
+        <div class="doc-grid">
+
+          <article class="doc-card">
+            <h3>Accords signés</h3>
+            <p>Documents officiels validés et disponibles.</p>
+          </article>
+
+          <article class="doc-card">
+            <h3>Notes conceptuelles</h3>
+            <p>Supports de cadrage des besoins et des demandes.</p>
+          </article>
+
+          <article class="doc-card">
+            <h3>Feuilles de route</h3>
+            <p>Plans d’action, livrables, délais et responsabilités.</p>
+          </article>
+
+          <article class="doc-card">
+            <h3>Comptes rendus</h3>
+            <p>Réunions, entretiens, relances et suivis institutionnels.</p>
+          </article>
+
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
