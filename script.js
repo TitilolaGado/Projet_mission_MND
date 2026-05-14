@@ -43,6 +43,7 @@ const accords = [
     maturite: "Intermédiaire",
     documentation: "Disponible"
   },
+  /*
   {
     gj: 5,
     id: "MOU-BILAT-BEN-CHN-NUM-2023",
@@ -53,9 +54,9 @@ const accords = [
     statut: "En cours",
     maturite: "Intermédiaire",
     documentation: "À compléter"
-  },
+  },*/
   {
-    gj: 6,
+    gj: 5,
     id: "MOU-BILAT-BEN-ZAF-ECONUM-YYYY",
     titre: "Accord de coopération entre le Bénin et l’Afrique du Sud dans le domaine de l’économie numérique",
     type: "Accord de coopération",
@@ -66,7 +67,7 @@ const accords = [
     documentation: "À compléter"
   },
   {
-    gj: 7,
+    gj: 6,
     id: "PROT-SADA-MND-BEN-2022",
     titre: "Protocole d’accord relatif à la mise en œuvre de Smart Africa Digital Academy (SADA) au Bénin",
     type: "Protocole d’accord",
@@ -77,7 +78,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 8,
+    gj: 7,
     id: "DECL-SATA-SAA-2023",
     titre: "Déclaration d’établissement de la Smart Africa Trust Alliance (SATA)",
     type: "Déclaration",
@@ -88,7 +89,7 @@ const accords = [
     documentation: "À compléter"
   },
   {
-    gj: 9,
+    gj: 8,
     id: "PROJ-IDECT-SAA-2024",
     titre: "Projet de Soutien Institutionnel aux Politiques de Paiement Numérique et de Commerce Électronique pour le Commerce Transfrontalier (IDECT)",
     type: "Projet",
@@ -99,7 +100,7 @@ const accords = [
     documentation: "À compléter"
   },
   {
-    gj: 10,
+    gj: 9,
     id: "BP-SWG-SAA-2024",
     titre: "Blueprint continental Smart Women & Girls in ICT (SWG)",
     type: "Blueprint",
@@ -110,7 +111,7 @@ const accords = [
     documentation: "À compléter"
   },
   {
-    gj: 11,
+    gj: 10,
     id: "ACF-MULTI-BEN-UIT-TIC-2017",
     titre: "Accord Cadre de Coopération entre le Bénin et l’Union internationale des télécommunications (UIT)",
     type: "Accord-cadre",
@@ -121,7 +122,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 12,
+    gj: 11,
     id: "CCP-NAT-BEN-CCIB-MND-2019",
     titre: "Convention Cadre de Partenariat entre la CCIB et le MND",
     type: "Convention de partenariat",
@@ -132,7 +133,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 13,
+    gj: 12,
     id: "MOU-SECTORIEL-BEN-AFRINIC-INTERNET-2021",
     titre: "Protocole d’accord entre le MND Bénin et AFRINIC Ltd",
     type: "Partenariat technique",
@@ -143,7 +144,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 14,
+    gj: 13,
     id: "CON-MULTI-BEN-KFW-PRSCGII-2021",
     titre: "Convention séparée au Contrat d’Aide Financière du PRSCG II avec la KfW",
     type: "Convention de financement",
@@ -154,7 +155,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 15,
+    gj: 14,
     id: "MOU-BILAT-BEN-CHN-INFOCOM-2023",
     titre: "Mémorandum d’entente entre la République du Bénin et la République populaire de Chine dans le domaine de l’information et de la communication",
     type: "MoU",
@@ -165,7 +166,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 16,
+    gj: 15,
     id: "MOU-BILAT-BEN-EST-EGA-2016",
     titre: "Mémorandum d’entente relatif au partenariat stratégique entre le Gouvernement de la République du Bénin et la e-Governance Academy d’Estonie",
     type: "MoU",
@@ -176,7 +177,7 @@ const accords = [
     documentation: "Disponible"
   },
   {
-    gj: 17,
+    gj: 16,
     id: "NEG-BILAT-BEN-IND-ITELLC-XXXX",
     titre: "Projet de Memorandum of Understanding entre l’Inde et le Bénin pour l’établissement d’un IT Centre and English Language Learning Centre",
     type: "Projet de MoU",
@@ -187,7 +188,7 @@ const accords = [
     documentation: "Projet disponible"
   },
   {
-    gj: 18,
+    gj: 17,
     id: "NEG-BILAT-BEN-IND-DIGSOL-XXXX",
     titre: "Projet de Memorandum of Understanding avec l’Inde sur le partage de solutions numériques réussies pour la transformation digitale",
     type: "Projet de MoU",
@@ -198,7 +199,7 @@ const accords = [
     documentation: "Projet disponible"
   },
   {
-    gj: 19,
+    gj: 18,
     id: "EXEC-MEDIA-BEN-CHN-NRTA-SRTB-2025",
     titre: "Mémorandum d’entente spécifique entre la SRTB et la NRTA dans le cadre du projet DREAM, dans le secteur des médias",
     type: "Instrument spécifique",
